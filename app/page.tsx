@@ -38,6 +38,7 @@ export default function Home() {
         <div className="w-full h-[300px] overflow-y-scroll border">
 
           <MessageList
+            referance={null}
             className='message-list'
             lockable={true}
             toBottomHeight={'100%'}
@@ -48,6 +49,8 @@ export default function Home() {
         <div  className="w-full  border">
           
           <Input
+            referance={null}
+            maxHeight={200}
             placeholder="Escribe aqui..."
             value={inputText}
             onChange={(e: any) => setInputText(e.target.value)}
