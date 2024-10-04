@@ -46,10 +46,9 @@ export default function Home() {
           />
         </div>
 
-        <div  className="w-full  border">
+        <div className="w-full border">
           
           <Input
-            referance={null}
             maxHeight={200}
             placeholder="Escribe aqui..."
             value={inputText}
